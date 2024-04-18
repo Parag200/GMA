@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Master</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;"> Glass Master Auto Glass </h1>
+    <link rel="stylesheet" href="index.css">
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <fieldset>
+           
+        <input type="hidden" name="access_key" value="3b1d617b-424a-4108-bfff-01e878c11187">
+
+        <div>
+            <label for="fname"> Name: </label>
+            <input type="text" id="Name" name="Name" placeholder="Name" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="number"> Phone Number: </label>
+            <input type="tel" id="number" name="Phone Number" placeholder="Phone Number" required>
+        </div>
+
+        <br>
+ 
+        <div>
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="Email" placeholder="Email Address" required>
+        </div>
+    
+        <br>    
+
+        <div>
+            <label for="message"> Message: </label>
+            <textarea id="message" cols = "4" rows="8" name="Eessage" placeholder="Message" required></textarea>
+        </div>
+    
+        <br>    
+
+        <div>
+            <label for="Carinfo"> Car Infomation: </label>
+            <textarea id="Carinfo" cols = "4" rows="8" name="CarInfo" placeholder="Tell us about your car. Year, Model etc." required></textarea>
+        </div>
+
+        <br>   
+
+        <div class="h-captcha" data-captcha="true"></div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </fieldset>
+    </form>
+
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+
+</body>
+</html>
